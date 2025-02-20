@@ -31,7 +31,22 @@ En el comunicado de la empresa nos detalla tambien el cve al que hace referencia
 
 ## Información sobre el riesgo o criticidad de una vulnerabilidad
 
+Encontramos información más detallada tanto en la web [CVE referente a la vulnerabilidad CVE-2024-0204](https://www.cve.org/CVERecord?id=CVE-2024-0204) como en la gubernamental [NIST refente a la vulneabilidad CVE-2024-0204](https://nvd.nist.gov/vuln/detail/CVE-2024-0204). Podemos observar que nos da una descripción de la vulnerabilidad seguido de la puntuación que define su gravedad para la versión 3 del estandard métrico.
+
+![NIST Metrics](images/nist-metrics.png)
+
+Si ponemos el cursor sobre el Vector nos aparecerán los valores correspondientes a las diferentes métricas que se han usado para el calculo de la puntuación.
+
+![NIST Vector](images/nist-vector.png)
+
+
 ## Información sobre las debilidades explotadas
+Otra información adicional que nos ofrece el NIST es el enlace a la debilidad.
+![NIST weakness](images/nist-weakness.png)
+
+El [enlace de Common Weaknes Enumeration](https://cwe.mitre.org/data/definitions/425.html) nos ofrece informatión detallada de la debilidad **CWE-425**, informandonos que consiste en que hay ciertas rutas que no están correctamente securizadas, debido a que asume que solo son accesibles desde otras que si están securizadas, permitiendo la explotación de CSRF o XSS.
+
+![CWE description](images/cwe-description.png)
 
 ## Información sobre patrones de ataque
 
