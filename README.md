@@ -32,7 +32,7 @@ En el comunicado de la empresa nos detalla tambien el cve al que hace referencia
 
 ![Fortra comunication 2](images/fortra-comunication_2.png)
 
-Si nos fijamos en el apartado de "nostas de la vulnerabilidad" nos informa de que la vulnerabilidad se encuentra parcheada a partir de la versión 7.4.1 o superior.
+Si nos fijamos en el apartado de "notas de la vulnerabilidad" nos informa de que la vulnerabilidad se encuentra parcheada a partir de la versión 7.4.1 o superior.
 
 ## Información sobre el riesgo o criticidad de una vulnerabilidad
 
