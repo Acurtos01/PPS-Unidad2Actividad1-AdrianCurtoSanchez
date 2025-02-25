@@ -1,5 +1,8 @@
 # Trazado de una vulnerabilidad
 
+Actividad perteneciente a https://github.com/jmmedinac03vjp/PPS-Unidad2Actividad1-JoseMi
+
+
 Indice de contenidos:
 
 1. [Información sobre la vulnerabilidad](#información-sobre-la-vulnerabilidad)
@@ -15,11 +18,11 @@ Vulnerabilidad a trazar [GoAnywhere MFT de Fortra](https://www.incibe.es/empresa
 
 ## Información sobre la vulnerabilidad
 
-En la web de incibe donde alerta sobre la vulnerabilidad al final del artículo podemos enoctr el cve de la vulnerabilidad.
+En la web de incibe donde alerta sobre la vulnerabilidad al final del artículo podemos enoctrar el cve de la vulnerabilidad.
 
 ![Incibe vulnerabilitie note](images/incibe-vulnerabilitie-note.png)
 
-Y un poco más abajo podemos encontar el enlace al comunicado propio de la empresa [FI-2024-001 - Authentication Bypass in GoAnywhere MFT](https://www.fortra.com/security/advisories/product-security/fi-2024-001).
+Y un poco más abajo se encuentra el enlace al comunicado propio de la empresa del software que sufre la vulnerabilidad [FI-2024-001 - Authentication Bypass in GoAnywhere MFT](https://www.fortra.com/security/advisories/product-security/fi-2024-001).
 
 ![Incibe refence](images/incibe-refence.png)
 
@@ -28,6 +31,8 @@ En el comunicado de la empresa nos detalla tambien el cve al que hace referencia
 ![Fortra comunication 1](images/fortra-comunication_1.png)
 
 ![Fortra comunication 2](images/fortra-comunication_2.png)
+
+Si nos fijamos en el apartado de "nostas de la vulnerabilidad" nos informa de que la vulnerabilidad se encuentra parcheada a partir de la versión 7.4.1 o superior.
 
 ## Información sobre el riesgo o criticidad de una vulnerabilidad
 
@@ -84,16 +89,23 @@ También encontramos referencias a otros ejemplos pertenecientes a vulnerabilida
 
 En cada uno de los patrones de ataque destacan las siguientes secciones:
 
-- Descripción: nos ofrece información básica sobre como funciona el ataque.
+- **Descripción**: nos ofrece información básica sobre como funciona el ataque.
 ![Capec description](images/capec-descriptiom.png)
-- Relaciones: indica si es hijo o pade de otro patrón de ataque.
+
+- **Relaciones**: indica si es hijo o pade de otro patrón de ataque.
 ![Capec relationships](images/capec-relationships.png)
-- Descripción: nos ofrece información básica sobre como funciona el ataque.
-![Capec description](images/capec-descriptiom.png)
-- Descripción: nos ofrece información básica sobre como funciona el ataque.
-![Capec description](images/capec-descriptiom.png)
-- Descripción: nos ofrece información básica sobre como funciona el ataque.
-![Capec description](images/capec-descriptiom.png)
+
+- **Flujo de ejecución**: nos da información detallada de como se produce el ataque.
+![Capec execution flow](images/capec-execution-flow.png)
+
+- **Requisitos previos**: indica que requisitos se deben cumplir para poder realizar el ataque.
+![Capec prerequisites](images/capec-prerequisites.png)
+
+- **Mitigaciones**: pautas para evitar la explotación del ataque.
+![Capec mitigations](images/capec-mitigations.png)
+
+- **Vulnerabilidades asociadas **: muestra una lista de vulnerabilidades que sufren este patrón de ataque.
+![Capec related weaknesses](images/capec-related-weaknesses.png)
 
 ## Descarga del Registro CVE de la vulnerabilidad
 
