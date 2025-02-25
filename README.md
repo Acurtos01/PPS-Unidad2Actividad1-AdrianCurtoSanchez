@@ -39,6 +39,16 @@ Si ponemos el cursor sobre el Vector nos aparecerán los valores correspondiente
 
 ![NIST Vector](images/nist-vector.png)
 
+Podemos observar información como la puntuación base de criticidad es 9.8 dado de la suma de los valores 5.9 de impacto y 3.9 de la posibilidad de explotación:
+- El vector de ataque se produce desde la red.
+- La complejidad de ataque es baja.
+- No emplea ningún privilegio en el sistema para explotar la vulnerabilidad.
+- No requiere una interacción por parte del usuario.
+- El alcance no se modifica (es decir, que no podemos acceder o cambiar a otro sistema con controles de seguridad diferente).
+- Impacto en Confidencialidad: alto.
+- Impacto en Integridad: alto.
+- Impacto en Disponibilidad: alto.
+
 
 ## Información sobre las debilidades explotadas
 Otra información adicional que nos ofrece el NIST es el enlace a la debilidad.
@@ -48,8 +58,36 @@ El [enlace de Common Weaknes Enumeration](https://cwe.mitre.org/data/definitions
 
 ![CWE description](images/cwe-description.png)
 
+Podemos observar que la vulnerabilidad no es específica de un solo lenguage, pero nos ofrecen como ejemplo una web de administración realizada con JSP una tecnología perteneciente a Java para el desarrollo web.
+
+![CWE demo](images/cwe-demo.png)
+
+También encontramos referencias a otros ejemplos pertenecientes a vulnerabilidades similares.
+
+![CWE examples](images/cwe-examples.png)
+
 ## Información sobre patrones de ataque
+
+[CWE](https://cwe.mitre.org/index.html) ofrece los enlaces a los patrones de ataque cuya información la podemos encontrar en la web de [CAPEC](https://capec.mitre.org/index.html).
+
+![CWE relatted attacks patterns](images/cwe-related-attacks.png)
+
+### CAPEC-127
+
+### CAPEC-143
+
+### CAPEC-144
+
+### CAPEC-668
+
+### CAPEC-87
 
 ## Descarga del Registro CVE de la vulnerabilidad
 
+Si accedemos a la web [CVE referente a la vulnerabilidad CVE-2024-0204](https://www.cve.org/CVERecord?id=CVE-2024-0204) podemos observar que en la parte superior tenemos enlace a los datos de la vulnerabilidad en formato Json.
 
+![CVE download](images/cve-download.png)
+
+Al acceder al enlace del fichero Json podemos ver todos los datos referentes a la vulnerabilidad, descargarlo o pasar el enlace a alguna herramienta software que nos muestre la información deseada.
+
+![CVE Json](images/cve-json.png)
