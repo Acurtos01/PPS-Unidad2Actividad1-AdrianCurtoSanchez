@@ -72,15 +72,28 @@ También encontramos referencias a otros ejemplos pertenecientes a vulnerabilida
 
 ![CWE relatted attacks patterns](images/cwe-related-attacks.png)
 
-### CAPEC-127
+- [CAPEC-127](https://capec.mitre.org/data/definitions/127.html)
 
-### CAPEC-143
+- [CAPEC-143](https://capec.mitre.org/data/definitions/143.html)
 
-### CAPEC-144
+- [CAPEC-144](https://capec.mitre.org/data/definitions/144.html)
 
-### CAPEC-668
+- [CAPEC-668](https://capec.mitre.org/data/definitions/668.html)
 
-### CAPEC-87
+- [CAPEC-87](https://capec.mitre.org/data/definitions/87.html)
+
+En cada uno de los patrones de ataque destacan las siguientes secciones:
+
+- Descripción: nos ofrece información básica sobre como funciona el ataque.
+![Capec description](images/capec-descriptiom.png)
+- Relaciones: indica si es hijo o pade de otro patrón de ataque.
+![Capec relationships](images/capec-relationships.png)
+- Descripción: nos ofrece información básica sobre como funciona el ataque.
+![Capec description](images/capec-descriptiom.png)
+- Descripción: nos ofrece información básica sobre como funciona el ataque.
+![Capec description](images/capec-descriptiom.png)
+- Descripción: nos ofrece información básica sobre como funciona el ataque.
+![Capec description](images/capec-descriptiom.png)
 
 ## Descarga del Registro CVE de la vulnerabilidad
 
